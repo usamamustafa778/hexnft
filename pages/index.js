@@ -13,6 +13,7 @@ export default function Home() {
 
       <main className='grid grid-cols-3'>
         Hex NFT
+        Let's goooo
       </main>
     </div>
   )
