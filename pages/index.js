@@ -1,6 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import BodyLeft from "../Components/BodyLeft"
+import BodyMiddle from "../Components/BodyMiddle"
+import BodyRight from "../Components/BodyRight"
+import Header from '../Components/Header'
 
 export default function Home() {
   return (
@@ -11,9 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='grid grid-cols-3'>
-        Hex NFT
-        Let's goooo
+      <Header/>
+      <main className='grid lg:grid-cols-gbody'>
+        <BodyLeft/>
+        <BodyMiddle pfp="home_pfp.svg" />
+        <BodyRight/>
       </main>
     </div>
   )
