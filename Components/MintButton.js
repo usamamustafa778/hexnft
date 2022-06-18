@@ -6,20 +6,20 @@ export default function MintButton({link}) {
       href={link}
       target="_blank"
       className="
-         py-7
+         py-6
          px-10 
-         h-12
+         h-8
          w-44
          font-semibold 
          text-white 
          flex 
+         justify-center
          items-center
          cursor-pointer
-         text-center
-         mt-6 
+         mt-3
          mr-6 
          rounded-full
-         text-xl
+         text-lg
         bg-myPink hover:text-white
          transition-transform
          "

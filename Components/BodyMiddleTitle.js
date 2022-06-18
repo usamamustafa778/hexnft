@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BodyMiddleTitle({ title }) {
   return (
-    <div className="text-white mt-4">
+    <div className="text-white mt-3">
       <h1 className="text-2xl font-bold">{title}</h1>
       <div className="flex items-center mt-2 text-white/50">
         <h1 className="text-lg">@HexiNFT</h1>

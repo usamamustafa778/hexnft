@@ -7,8 +7,8 @@ export default function FollowButton({ link }) {
       target="_blank"
       className="
          py-1 
-         px-10 
-         h-12 
+         px-6 
+         h-10
          font-semibold 
          border 
          text-myPink 
