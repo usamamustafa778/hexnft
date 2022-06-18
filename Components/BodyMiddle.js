@@ -59,7 +59,7 @@ function Tweet() {
       <div className="ml-2">
         <div className="flex items-center">
           <h1 className="font-bold">Hexi NFT</h1>
-          <h1 className="text-sm text-white/50">@HexiNFT - 29m</h1>
+          <h1 className="text-sm text-white/50 ml-3">@HexiNFT - 29m</h1>
         </div>
         <p>
           perfectly shaped for your pfp ❤️ first 2.5k mints are free all the

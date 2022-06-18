@@ -3,6 +3,9 @@ import React from "react";
 export default function guestArtist() {
   return (
     <div className="p-5">
+      
+      {/* Guest Artist */}
+      <div>
       <h1 className="text-xl font-semibold">Guest Artists</h1>
       <Artist
         img="/avatar/a1.jpg"
@@ -29,17 +32,47 @@ export default function guestArtist() {
         link="#"
       />
       <Artist
-        img="/avatar/a1.jpg"
+        img="/avatar/a5.jpg"
         name="ILHAM (psychedelic artist)"
         username="@ilham_nft"
         link="#"
       />
       <Artist
-        img="/avatar/a1.jpg"
+        img="/avatar/a6.jpg"
         name="ILHAM (psychedelic artist)"
         username="@ilham_nft"
         link="#"
       />
+      <Artist
+        img="/avatar/a7.jpg"
+        name="ILHAM (psychedelic artist)"
+        username="@ilham_nft"
+        link="#"
+      />
+      <Artist
+        img="/avatar/a8.png"
+        name="ILHAM (psychedelic artist)"
+        username="@ilham_nft"
+        link="#"
+      />
+      <Artist
+        img="/avatar/a9.png"
+        name="ILHAM (psychedelic artist)"
+        username="@ilham_nft"
+        link="#"
+      />
+      </div>
+
+      {/* Founder Artist */}
+      <div className="mt-8">
+      <h1 className="text-xl font-semibold">Founder & Artist</h1>
+      <Artist
+        img="/avatar/a10.png"
+        name="James Richard Fry"
+        username="@jamesrichardfry"
+        link="#"
+      />
+      </div>
     </div>
   );
 }
