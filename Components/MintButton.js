@@ -8,9 +8,9 @@ export default function MintButton({link}) {
       className="
          py-6
          px-10 
-         h-8
+         h-5
          w-44
-         font-semibold 
+         font-medium 
          text-white 
          flex 
          justify-center
