@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import BodyLeft from "../Components/BodyLeft"
-import BodyMiddle from "../Components/BodyMiddle"
-import BodyRight from "../Components/BodyRight"
-import Header from '../Components/Header'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import BodyLeft from "../Components/BodyLeft";
+import BodyMiddle from "../Components/BodyMiddle";
+import BodyRight from "../Components/BodyRight";
+import Header from "../Components/Header";
 
 export default function Home() {
   return (
@@ -14,12 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <Header/>
-      <main className='grid lg:grid-cols-gbody'>
-        <BodyLeft/>
+      <Header />
+      <main className="grid lg:grid-cols-gbody">
+        <BodyLeft />
         <BodyMiddle pfp="guest_pfp.svg" title="Guest Hexi NFT" />
-        <BodyRight/>
+        <BodyRight />
       </main>
     </div>
-  )
+  );
 }
